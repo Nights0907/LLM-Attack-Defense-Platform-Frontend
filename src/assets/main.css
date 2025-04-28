@@ -1,0 +1,34 @@
+/* 全局样式 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Microsoft YaHei', Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* 按钮样式 */
+.custom-button {
+  background-color: #409EFF;
+  border-color: #409EFF;
+  color: white;
+  transition: all 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #66b1ff;
+  border-color: #66b1ff;
+}
+
+/* 卡片样式 */
+.custom-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* 页面布局 */
+.page-container {
+  padding: 20px;
+  background-color: #f5f7fa;
+  min-height: calc(100vh - 60px);
+}
