@@ -46,7 +46,7 @@ export default new Vuex.Store({
       commit('clearUser')
     },
     fetchModels({ commit }) {
-      return Vue.prototype.$http.post('/api/models')
+      return Vue.prototype.$http.get('/api/models')
         .then(response => {
           commit('setModels', response.data)
           return response.data
