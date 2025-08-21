@@ -56,7 +56,6 @@
             <el-option label="advbench" value="advbench"></el-option>
             <el-option label="MaliciousInstruct" value="MaliciousInstruct"></el-option>
             <el-option label="shadow_heldout" value="shadow_heldout"></el-option>
-            <el-option label="不使用问题集" value=""></el-option>
           </el-select>
         </el-form-item>
         
